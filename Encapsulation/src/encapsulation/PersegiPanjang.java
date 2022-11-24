@@ -26,7 +26,7 @@ public class PersegiPanjang {
     
     void setLebar(int l){
         if (l > 0) {
-            this.panjang = l;
+            this.lebar = l;
         } else {
             System.out.println("Nilai lebar tidak valid");
             System.exit(0);
